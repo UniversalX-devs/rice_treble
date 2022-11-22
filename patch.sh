@@ -16,7 +16,7 @@ mv ./rice_treble/patches/trebledroid ./rice_treble/patches/tre/patches
 echo "Patching with script"
 echo "Lynix"
 sleep 2
-bash ./rice_treble/apply.sh ./rice_treblees/patches/lynix
+bash ./rice_treble/apply.sh ./rice_treble/patches/lynix
 echo "Chondoe"
 sleep 2
 bash ./rice_treble/apply.sh ./rice_treble/patches/chon
