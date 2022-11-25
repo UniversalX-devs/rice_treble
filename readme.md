@@ -1,9 +1,6 @@
 # Rice_Treble
 Patches for RiceDroid A13
 
-Hello!
-Hehe
-
 ## Credits
 These people have helped this project, mostly because I took patches from them (heh, sorry x3)
 - [RiceDroid](https://github.com/ricedroid/)
