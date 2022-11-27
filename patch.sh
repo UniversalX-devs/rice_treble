@@ -17,6 +17,9 @@ echo "Patching with script"
 echo "Lynix"
 sleep 2
 bash ./rice_treble/apply.sh ./rice_treble/patches/lynix
+cd vendor/lineage
+patch -p1 < ../../rice_treble/patches/lynix/patches/vendor_lineage/0001-Disable-generated-kernel-headers.patch
+cd ../..
 echo "Chondoe"
 sleep 2
 bash ./rice_treble/apply.sh ./rice_treble/patches/chon
