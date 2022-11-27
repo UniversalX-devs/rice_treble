@@ -19,6 +19,8 @@ sleep 2
 bash ./rice_treble/apply.sh ./rice_treble/patches/lynix
 cd vendor/lineage
 patch -p1 < ../../rice_treble/patches/lynix/patches/vendor_lineage/0001-Disable-generated-kernel-headers.patch
+cd ../../system/core
+patch -p1 < ../../rice_treble/patches/lynix/patches/platform_system_core/0002-Revert-vendor-specific-init.patch
 cd ../..
 echo "Chondoe"
 sleep 2
@@ -35,7 +37,7 @@ bash ./rice_treble/apply.sh ./rice_treble/patches/pon
 echo "trebledroid"
 sleep 2
 bash ./rice_treble/apply.sh ./rice_treble/patches/tre
-
+echo "Cleaning up leftovers..."
 echo "Shitty script completed. Have fun!"
 
 
